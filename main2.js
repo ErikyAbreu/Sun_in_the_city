@@ -122,7 +122,7 @@ camera.position.z = 50;
 
 const loader = new GLTFLoader();
 
-loader.load(    'modelos/robot_dog.glb',
+/*loader.load(    'modelos/robot_dog.glb',
                 function ( gltf ) {
                     roboDog = gltf.scene;
                     roboDog.position.set(-10, -15, 55);
@@ -134,7 +134,7 @@ loader.load(    'modelos/robot_dog.glb',
                 function ( error ) {
                     console.error( error );
                 }
-);
+);*/
 
 loader.load(    'modelos/medium_-_cute_robo-drone.glb',
                 function ( gltf ) {
